@@ -1,0 +1,17 @@
+print("Please enter the following:")
+print()
+adjective = input("Adjective:")
+animal = input("Animal:")
+vrb = input("verb:")
+exclamation = input("Exclamation")
+vrb2 = input("verb 2:")
+vrb3 = input("verb 3:")
+pluraln = input("Plural noun:")
+
+print()
+print("Your Storie is:")
+print()
+
+print(f'The other day, I was really in trouble. It all started when I saw a very {adjective} {animal} {vrb}') 
+print('down the hallway."'+ exclamation.capitalize()+'"')
+print(f'I yelled. But all i could think to do was to {vrb2} over and over.Miraculously, that caused it to stop,but not before it tried to  {vrb3} right in front of my family')
